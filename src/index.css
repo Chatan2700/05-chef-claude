@@ -1,0 +1,107 @@
+body {
+  margin-top: 40px;
+  font-family:'Inter',sans-serif;
+  background: #e5e5e5;
+  color: #141413;
+  /* Center the React card on the screen */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background-color: #FAFAF8;
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  /* box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25); */
+  /* box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06); */
+  border-radius: 10px;
+
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 111px;
+  gap: 11px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+header > img {
+  width: 43px;
+  height: 52px;
+}
+
+header > span {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  letter-spacing: -5%;
+}
+
+/* Add Ingredient form / Main section */
+
+main {
+  padding: 10px 30px;
+}
+
+.add-ingredient-form {
+  margin:  60px 0px 30px 0px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 12px;
+}
+
+.add-ingredient-form > input {
+  min-width: 150px;
+  max-width: 400px;
+  /* height: 38px; */
+  flex-grow: 1;
+  padding: 9px 13px;
+  border-radius: 6px;
+  border:1px solid #D1D5DB;;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+} 
+
+.add-ingredient-form > button {
+  font-family:'Inter',sans-serif;
+  background-color: #141413;
+  color: #FAFAF8;
+  border-radius: 6px;
+  border: none;
+  padding: 0px 25px 0px 25px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.add-ingredient-form > button::before {
+  content: '+';
+  margin-right: 5px;
+}
+
+/*  */
+
+.Ingredients {
+  padding: 0px 0px 5px 50px;
+  
+}
+
+
+
+
+/**
+header box shadow code:
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+*/
+
+/* #FAFAF8 */
