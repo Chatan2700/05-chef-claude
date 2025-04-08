@@ -18,7 +18,7 @@ const Main = () => {
     setIngredients(prevIngredients => [...prevIngredients, newIngredient]) //Arry manip
   }
 
-  function handleRecipeShown() {
+  function toggleRecipeShown() {
     setRecipeShown(prevstate => !prevstate)
   }
 
@@ -36,7 +36,7 @@ const Main = () => {
             <h3>Ready for a recipe?</h3>
             <p>Generate a recipe from your list of ingredients.</p>
           </div>
-          <button onClick={handleRecipeShown}>Get a recipe</button>
+          <button onClick={toggleRecipeShown}>Get a recipe</button>
         </div> : null}
       </section> : null}
       {/* recipe given by "AI" */}
